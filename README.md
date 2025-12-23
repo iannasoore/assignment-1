@@ -47,12 +47,12 @@ assignment-1/
 - Background: Cream (#F5E6D3)
 - Accent: Tan (#D2B48C)
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - Desktop: > 600px
 - Mobile: ≤ 600px
 
-## 👨 Author
+## Author
 
 **Faustine Pelenoi**
 
