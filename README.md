@@ -60,6 +60,4 @@ assignment-1/
 
 © 2025 Faustine Pelenoi. All rights reserved.
 
----
 
-*Created as a school assignment demonstrating HTML5, CSS3, and JavaScript skills.*
