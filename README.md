@@ -2,24 +2,24 @@
 
 A single-page informational website showcasing the rich tradition of Kenyan coffee production.
 
-## 📋 Project Description
+##  Project Description
 
 This website provides information about coffee farming in Kenya, highlighting the journey from highland farms to the cup. It features details about cultivation, harvesting, and processing methods that make Kenyan coffee world-renowned.
 
-## 🚀 Features
+## Features
 
 - **Responsive Design**: Mobile-friendly layout that adapts to different screen sizes
 - **Interactive Navigation**: Hamburger menu for mobile devices
 - **Dynamic Content**: Read More/Less button to expand additional information
 - **Modern Layout**: CSS Grid and Flexbox for clean, organized content presentation
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5**: Semantic markup with proper structure
 - **CSS3**: External stylesheet with responsive design
 - **JavaScript**: Interactive features and DOM manipulation
 
-## 📂 File Structure
+## File Structure
 
 ```
 assignment-1/
@@ -30,7 +30,7 @@ assignment-1/
 └── README.md       # Project documentation
 ```
 
-## 💻 How to Use
+##  How to Use
 
 1. Clone this repository:
    ```bash
@@ -41,7 +41,7 @@ assignment-1/
 
 3. Or view the live site: [GitHub Pages Link]
 
-## 🎨 Color Scheme
+##  Color Scheme
 
 - Primary: Coffee Brown (#6F4E37)
 - Background: Cream (#F5E6D3)
@@ -52,11 +52,11 @@ assignment-1/
 - Desktop: > 600px
 - Mobile: ≤ 600px
 
-## 👨‍💻 Author
+## 👨 Author
 
 **Faustine Pelenoi**
 
-## 📄 License
+##  License
 
 © 2025 Faustine Pelenoi. All rights reserved.
 
