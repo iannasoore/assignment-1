@@ -32,3 +32,45 @@ navLinks.forEach(link => {
         }
     });
 });
+
+// Functionality 4: Slideshow
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+let currentSlide = 0;
+
+function showSlide(n) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+    
+    if (n >= slides.length) {
+        currentSlide = 0;
+    } else if (n < 0) {
+        currentSlide = slides.length - 1;
+    } else {
+        currentSlide = n;
+    }
+    
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+}
+
+prevBtn.addEventListener('click', () => {
+    showSlide(currentSlide - 1);
+});
+
+nextBtn.addEventListener('click', () => {
+    showSlide(currentSlide + 1);
+});
+
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        showSlide(index);
+    });
+});
+
+// Auto-play slideshow every 4 seconds
+setInterval(() => {
+    showSlide(currentSlide + 1);
+}, 4000);

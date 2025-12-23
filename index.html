@@ -9,6 +9,7 @@
 <body>
 
     <header>
+        <img src="https://coffeeconnection.com.au/cdn/shop/articles/health-benefits-of-cappuccino-coffee-908368.jpg?v=1748601688" alt="Kenyan Coffee Farm" class="header-image">
         <div class="logo">☕ Kenyan Coffee Heritage</div>
         <button id="menu-btn" class="menu-toggle">☰ Menu</button>
         <nav id="navbar">
@@ -19,10 +20,9 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <img src="https://coffeeconnection.com.au/cdn/shop/articles/health-benefits-of-cappuccino-coffee-908368.jpg?v=1748601688 " alt="Kenyan Coffee Farm" class="header-image" width="500" height="200">
     </header>
 
-    
+    <main>
         <section id="home" class="hero">
             <h1>The Rich Tradition of Kenyan Coffee</h1>
             <p>Discover the journey from highland farms to your cup of excellence.</p>
@@ -43,10 +43,26 @@
 
         <section id="gallery" class="content-section">
             <h2>Coffee Production Journey</h2>
-            <div class="grid-container">
-                <div class="card"><h3> Cultivation</h3><p>Growing premium Arabica varieties in highland regions.</p></div>
-                <div class="card"><h3> Harvesting</h3><p>Hand-picking only the ripest red cherries.</p></div>
-                <div class="card"><h3>☕ Processing</h3><p>Wet processing for superior flavor and quality.</p></div>
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <h3>🌱 Cultivation</h3>
+                    <p>Growing premium Arabica varieties in highland regions.</p>
+                </div>
+                <div class="slide">
+                    <h3>🫘 Harvesting</h3>
+                    <p>Hand-picking only the ripest red cherries.</p>
+                </div>
+                <div class="slide">
+                    <h3>☕ Processing</h3>
+                    <p>Wet processing for superior flavor and quality.</p>
+                </div>
+                <button class="prev" id="prev-btn">❮</button>
+                <button class="next" id="next-btn">❯</button>
+            </div>
+            <div class="dots-container">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
             </div>
         </section>
 
@@ -54,9 +70,9 @@
             <h2>Contact Us</h2>
             <p>Interested in learning more about Kenyan coffee or partnering with local farmers?</p>
             <div class="contact-info">
-                <p><strong> Email:</strong> info@kenyancoffee.com</p>
-                <p><strong> Phone:</strong> +254 769 364 870</p>
-                <p><strong> Location:</strong> Limuru, Kenya</p>
+                <p><strong>📧 Email:</strong> info@kenyancoffee.com</p>
+                <p><strong>📱 Phone:</strong> +254 769 364 870</p>
+                <p><strong>📍 Location:</strong> Limuru, Kenya</p>
             </div>
         </section>
     </main>
